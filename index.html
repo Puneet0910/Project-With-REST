@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Store</title>
+</head>
+
+<body>
+    <form onsubmit="handleData(event)">
+    
+    <label for="itemName">Item Name</label> <input type="text" name="itemName" id="itemName"><br>
+    
+    <label for="description">Description</label> <input type="text" name="description" id="description"><br>
+    
+    <label for="price">Price</label> <input type="number" name="price" id="price"><br>
+    
+    <label for="quantity">Quantity</label> <input type="number" name="quantity" id="quantity"><br>
+    
+    <button type="submit">Add Item</button><br>
+    </form>
+    <div>
+        <ul></ul>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js"></script>
+<script src="index.js"></script>
+
+</html>
